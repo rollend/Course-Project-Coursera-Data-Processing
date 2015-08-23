@@ -1,6 +1,6 @@
 ##You should create one R script called run_analysis.R that does the following. 
 ##Merges the training and the test sets to create one data set.
-setwd("G:/SkyDrive/Works/R/Coursa program data/Data processing")
+##setwd("G:/SkyDrive/Works/R/Coursa program data/Data processing")
 x.train <- read.table('./UCI HAR Dataset/train/X_train.txt')
 x.test <- read.table('./UCI HAR Dataset/test/X_test.txt')
 x <- rbind(x.train, x.test)
